@@ -52,7 +52,6 @@ startButton.addEventListener("click", () => {
       hoursEl.textContent = "00";
       minutesEl.textContent = "00";
       secondsEl.textContent = "00";
-      startButton.disabled = false;
       datetimePicker.disabled = false;
       return;
     }
